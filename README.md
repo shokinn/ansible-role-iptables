@@ -1,6 +1,6 @@
-# Ansible Role: Firewall (iptables)
+# Ansible Role: iptables
 
-[![Build Status](https://travis-ci.org/geerlingguy/ansible-role-firewall.svg?branch=master)](https://travis-ci.org/geerlingguy/ansible-role-firewall)
+[![Build Status](https://travis-ci.org/shokinn/ansible-role-firewall.svg?branch=master)](https://travis-ci.org/shokinn/ansible-role-firewall)
 
 Installs an iptables-based firewall for Linux. Supports both IPv4 (`iptables`) and IPv6 (`ip6tables`).
 
@@ -94,15 +94,12 @@ None.
       - "25"
       - "80"
 
-## TODO
-
-  - Make outgoing ports more configurable.
-  - Make other firewall features (like logging) configurable.
-
 ## License
 
 MIT / BSD
 
 ## Author Information
 
-This role was created in 2014 by [Jeff Geerling](https://www.jeffgeerling.com/), author of [Ansible for DevOps](https://www.ansiblefordevops.com/).
+This role was originally created in 2014 by [Jeff Geerling](https://www.jeffgeerling.com/), author of [Ansible for DevOps](https://www.ansiblefordevops.com/).
+
+This role is currently maintained by [Philip Henning](https://pphg.tech/).

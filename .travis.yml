@@ -4,7 +4,7 @@ services: docker
 
 env:
   global:
-    - ROLE_NAME: firewall
+    - ROLE_NAME: iptables
   matrix:
     - MOLECULE_DISTRO: centos7
     - MOLECULE_DISTRO: centos6
@@ -20,8 +20,8 @@ install:
 before_script:
   # Use actual Ansible Galaxy role name for the project directory.
   - cd ../
-  - mv ansible-role-$ROLE_NAME geerlingguy.$ROLE_NAME
-  - cd geerlingguy.$ROLE_NAME
+  - mv ansible-role-$ROLE_NAME shokinn.$ROLE_NAME
+  - cd shokinn.$ROLE_NAME
 
 script:
   # Run tests.

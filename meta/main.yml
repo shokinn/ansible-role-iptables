@@ -1,10 +1,10 @@
 ---
-dependencies: []
+dependencies:
+  - shokinn.base
 
 galaxy_info:
-  author: geerlingguy
+  author: shokinn
   description: Simple iptables firewall for most Unix-like systems.
-  company: "Midwestern Mac, LLC"
   license: "license (BSD, MIT)"
   min_ansible_version: 2.4
   platforms:

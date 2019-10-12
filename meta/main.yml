@@ -1,6 +1,5 @@
 ---
-dependencies:
-  - shokinn.base
+dependencies: []
 
 galaxy_info:
   author: shokinn

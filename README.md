@@ -102,4 +102,4 @@ MIT / BSD
 
 This role was originally created in 2014 by [Jeff Geerling](https://www.jeffgeerling.com/), author of [Ansible for DevOps](https://www.ansiblefordevops.com/).
 
-This role is currently maintained by [Philip Henning](https://pphg.tech/).
+This fork is maintained since 2019 by [Philip Henning](https://pphg.tech).

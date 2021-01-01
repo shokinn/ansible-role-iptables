@@ -1,3 +1,5 @@
+ATTENTION - DEPRICATED!
+
 # Ansible Role: iptables
 
 [![Build Status](https://travis-ci.org/shokinn/ansible-role-firewall.svg?branch=master)](https://travis-ci.org/shokinn/ansible-role-firewall)
